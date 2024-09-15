@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag</title>
+    <style>
+        .flag {
+            background-color: antiquewhite;
+            height: 600px;
+            width: 900px;
+            position: relative;
+            margin: auto;
+        }
+        #vertical-big-cross {
+            background-color: red;
+            height: 100px;
+            width: 100%;
+            position: absolute;
+            top: 250px;
+        }
+        #horizontal-big-cross {
+            background-color: red;
+            height: 100%;
+            width: 100px;
+            position: absolute;
+            left: 400px;
+        }
+        .small-cross {
+            background-color: red;
+            position: absolute;
+        }
+        
+        #down-left-cross {
+            height: 150px;
+            width: 40px;
+            top: 375px;
+            left: 140px;
+        }
+        #down-left-cross2 {
+            height: 40px;
+            width: 150px;
+            top: 430px;
+            left: 85px;
+        }
+        
+        #up-left-cross {
+            height: 150px;
+            width: 40px;
+            top: 75px;
+            left: 140px;
+        }
+        #up-left-cross2 {
+            height: 40px;
+            width: 150px;
+            top: 130px;
+            left: 85px;
+        }
+    
+        #down-right-cross {
+            height: 150px;
+            width: 40px;
+            top: 375px;
+            right: 140px;
+        }
+        #down-right-cross2 {
+            height: 40px;
+            width: 150px;
+            top: 430px;
+            right: 85px;
+        }
+        
+        #up-right-cross {
+            height: 150px;
+            width: 40px;
+            top: 75px;
+            right: 140px;
+        }
+        #up-right-cross2 {
+            height: 40px;
+            width: 150px;
+            top: 130px;
+            right: 85px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div id="vertical-big-cross"></div>
+        <div id="horizontal-big-cross"></div>
+
+        <!-- Down Left Cross -->
+        <div id="down-left-cross" class="small-cross"></div>
+        <div id="down-left-cross2" class="small-cross"></div>
+
+        <!-- Up Left Cross -->
+        <div id="up-left-cross" class="small-cross"></div>
+        <div id="up-left-cross2" class="small-cross"></div>
+
+        <!-- Down Right Cross -->
+        <div id="down-right-cross" class="small-cross"></div>
+        <div id="down-right-cross2" class="small-cross"></div>
+
+        <!-- Up Right Cross -->
+        <div id="up-right-cross" class="small-cross"></div>
+        <div id="up-right-cross2" class="small-cross"></div>
+    </div>
+</body>
+</html>
